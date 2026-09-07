@@ -11,13 +11,12 @@ setup(
     description="A simple web traffic analytics library using SQLite",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/web-analytics-lib",
+    url="https://github.com/gatewaymanish/webanalytics",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
         "Topic :: Internet :: WWW/HTTP :: HTTP Servers",
-        "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
@@ -25,6 +24,7 @@ setup(
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
     ],
+    license="MIT",
     python_requires=">=3.7",
     install_requires=[
         # No external dependencies - uses only Python standard library

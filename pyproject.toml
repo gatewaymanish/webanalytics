@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "web-analytics-lib"
+version = "0.1.0"
+authors = [
+    {name = "Manish Kumar", email = "gateway.manish@gmail.com"}
+]
+description = "A simple web traffic analytics library using SQLite"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Internet :: WWW/HTTP :: HTTP Servers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+[project.urls]
+Homepage = "https://github.com/gatewaymanish/webanalytics"
+Repository = "https://github.com/gatewaymanish/webanalytics"
+
+[tool.hatch.build.targets.wheel]
+packages = ["web_analytics"]
