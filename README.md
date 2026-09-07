@@ -18,6 +18,12 @@ A simple and lightweight Python library for tracking web traffic analytics using
 
 ## Installation
 
+### Install from PyPI
+
+```bash
+pip install webanalytics
+```
+
 ### Install from source
 
 ```bash
